@@ -1,17 +1,22 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Button, StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App2.js to start working on your app!</Text>
+      <Button>Button1</Button>
+      <Text>added part</Text>
+      <Button>Button2</Button>
     </View>
   );
 }
 //edit1
 
 const styles = StyleSheet.create({
-  container: {
+  Button: {
+    backgroundColor: '#fff',
+  },
+  Text: {
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
