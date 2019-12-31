@@ -10,8 +10,8 @@ export default function App() {
     </View>
   );
 }
-//edit1
 //edit2
+//edit1
 
 const styles = StyleSheet.create({
   Button: {
