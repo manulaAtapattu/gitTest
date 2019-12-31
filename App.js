@@ -4,9 +4,8 @@ import { Button, StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Button>Button1</Button>
-      <Text>added part</Text>
       <Button>Button2</Button>
+      <Text>added par1t</Text>
     </View>
   );
 }
